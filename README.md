@@ -44,6 +44,6 @@ If you find this repo helpful, please consider citing:
 ```
 @article{zhang2021avss,
   title={Audio-Visual Speech Separation with Visual Features Enhanced by Adversarial Training},
-  author={Zhang, Peng and Xu, Jiaming and Shi, Jing and Hao, Yunzhem and Qin, Lei and Xu, Bo}
+  author={Zhang, Peng and Xu, Jiaming and Shi, Jing and Hao, Yunzhe and Qin, Lei and Xu, Bo}
 }
 ```
