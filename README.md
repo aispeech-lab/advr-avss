@@ -1,12 +1,16 @@
-# audio-visual-speech-separation
+# Audio-Visual Speech Separation with Visual Features Enhanced by Adversarial Training
+
+## Overview
+Demo samples of our paper *Audio-Visual Speech Separation with Visual Features Enhanced by Adversarial Training*. 
+
+We will release the whole code soon. If you have any question about implementation details, feel free to ask me (zhangpeng2018@ia.ac.cn).
 
 ## Abstract
-Speech separation aims to separate individual voice from an audio mixture of multiple simultaneous talkers. Although audio-only approaches achieve satisfactory performance, they build on a strategy to handle the predefined conditions, such as the number of speakers is determined. Towards the cocktail party problem, we proposed a novel audio-visual speech separation model. In our model, we use the face detector to detect the number of speakers in the scene and use visual information to avoid the permutation problem. To improve our model's generalization ability to unknown speakers, we extract speech-related (speaker-independent) visual features from visual inputs explicitly by the adversarially disentangled method, and this feature is used to assist speech separation. Besides, the time-domain approach is adopted, which could avoid the phase reconstruction problem existing in the time-frequency domain models. To compare our model's performance with that of other models, we create two benchmark datasets of 2-speaker mixture from GRID and TCD-TIMIT audio-visual datasets. Through a series of experiments, our proposed model is shown to outperform the state-of-the-art audio-only model and three audio-visual models.
+Audio-visual speech separation (AVSS) refers to separating individual voice from an audio mixture of multiple simultaneous talkers by conditioning on visual features. **For the
+AVSS task, visual features play an important role, based on which we manage to extract more effective visual features to improve the performance**. In this paper, we propose a novel AVSS model that uses speech-related visual features for isolating the target speaker. Specifically, the method of extracting speech-related visual features has two steps. Firstly, we extract the visual features that contain speech-related information by learning joint audio-visual representation. Secondly, we use the adversarial training method
+to enhance speech-related information in visual features further. We adopt the time-domain approach and build audio-visual speech separation networks with temporal convolutional neural network block. Experiments on audio-visual datasets, including GRID, TCD-TIMIT, AVSpeech, and LRS2, show that our model significantly outperforms previous state-of-the-art AVSS models. We also demonstrate that our model can achieve excellent speech separation performance in noisy real-world scenarios. **Moreover, in order to alleviate the performance degradation of AVSS models caused by the missing of some video frames, we propose a training strategy, which makes our model robust when video frames are partially missing**. 
 
-<div align=center><img width="400" src="https://github.com/ParrtZhang/AVSS_ADVR/blob/master/Image/Figure6.png" alt="The framework of our model"/></div>
-
-## Motivation
-We expect to elegantly resolve two problems in speech separation task in a unified audio-visual speech separation model: **permutation problem** and **unknown number of sources in the mixture**. Then, to **improve the model's generalization ability to unknown speakers**, we use the adversarially disentangled method to extract a **relative speaker-independent visual-speech feature** from face thumbnails. So our model can achieve excellent performance even on limited size datasets, which is a great advantage when data resources are limited.
+<div align=center><img width="400" src="https://github.com/aispeech-lab/advr-avss/blob/master/image/Figure2.png" alt="The framework of our model"/></div>
 
 ## Model
 ### Extract visual-speech feature by adversarial disentangled method
