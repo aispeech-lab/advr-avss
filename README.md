@@ -34,6 +34,16 @@ The method of generating training, validation, and test samples is detailed in o
 We provide many samples from standard datasets and recorded in a real world environment. 
 - Listen and watch the samples that recorded in real world environment at [*./samples/samples of real-world environment*](./samples/samples%20of%20real-world%20environment).
 - Listen the samples from standard datasets at [*./samples/sample of standard dataset*](https://github.com/aispeech-lab/advr-avss/tree/master/samples/samples%20of%20standard%20dataset)
+- Spectrogram samples that recorded in real world environment.
+<div align=center><img width="500" src="./image/Figure5.png" alt="Audio-visual speech separation networks"/></div>
 
-## Pipeline
-The pipeline of this project will be released soon. If you have any question about implementation details, feel free to ask me (zhangpeng2018@ia.ac.cn)
+## Citations
+
+If you find this repo helpful, please consider citing:
+
+```
+@article{zhang2021avss,
+  title={Audio-Visual Speech Separation with Visual Features Enhanced by Adversarial Training},
+  author={Zhang, Peng and Xu, Jiaming and Shi, Jing and Qin, Lei and Xu, Bo}
+}
+```
