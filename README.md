@@ -23,9 +23,10 @@ The code will be release soon, but the networks can be easily built based on our
 
 ## Datasets
 * GRID [[paper]](http://www.laslab.org/wp-content/uploads/an_audio-visual_corpus_for_speech_perception_and_automatic_speech_recognition.pdf) [[dataset page]](http://spandh.dcs.shef.ac.uk/gridcorpus/)
-* [dataset page](https://sigmedia.tcd.ie/TCDTIMIT/)
-* [dataset page](https://looking-to-listen.github.io/avspeech/index.html)
-* [dataset page](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html)
+* TCD-TIMIT [[paper]](https://ieeexplore.ieee.org/abstract/document/7050271) [[dataset page]](https://sigmedia.tcd.ie/TCDTIMIT/)
+* AVSpeech [[paper]](https://arxiv.org/pdf/1804.03619.pdf) [[dataset page]](https://looking-to-listen.github.io/avspeech/index.html)
+* LRS2 [[paper]](https://www.robots.ox.ac.uk/~vgg/publications/2019/Afouras19/afouras18c.pdf) [[dataset page]](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html)
+
 The method of generating training, validation, and test samples is detailed in our paper.
 
 ## Result
