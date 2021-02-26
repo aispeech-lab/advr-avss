@@ -35,7 +35,7 @@ We provide many samples from standard datasets and recorded in a real world envi
 - Listen and watch the samples that recorded in real world environment at [*./samples/samples of real-world environment*](./samples/samples%20of%20real-world%20environment).
 - Listen the samples from standard datasets at [*./samples/sample of standard dataset*](https://github.com/aispeech-lab/advr-avss/tree/master/samples/samples%20of%20standard%20dataset)
 - Spectrogram samples that recorded in real world environment.
-<div align=center><img width="500" src="./image/Figure5.png" alt="Audio-visual speech separation networks"/></div>
+<div align=center><img width="500" src="./image/Figure1.png" alt="Spectrogram samples"/></div>
 
 ## Citations
 
