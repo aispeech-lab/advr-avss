@@ -22,7 +22,7 @@ The code will be release soon, but the networks can be easily built based on our
 <div align=center><img width="500" src="./image/Figure4.png" alt="Audio-visual speech separation networks"/></div>
 
 ## Datasets
-* [paper](http://www.laslab.org/wp-content/uploads/an_audio-visual_corpus_for_speech_perception_and_automatic_speech_recognition.pdf) [dataset page](http://spandh.dcs.shef.ac.uk/gridcorpus/)
+* GRID [[paper]](http://www.laslab.org/wp-content/uploads/an_audio-visual_corpus_for_speech_perception_and_automatic_speech_recognition.pdf) [[dataset page]](http://spandh.dcs.shef.ac.uk/gridcorpus/)
 * [dataset page](https://sigmedia.tcd.ie/TCDTIMIT/)
 * [dataset page](https://looking-to-listen.github.io/avspeech/index.html)
 * [dataset page](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html)
