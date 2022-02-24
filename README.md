@@ -3,7 +3,7 @@
 ## Overview
 Demo samples of our paper *"Audio-Visual Speech Separation with Visual Features Enhanced by Adversarial Training"*. 
 
-We will release the whole code soon. If you have any question about implementation details, feel free to ask me (zhangpeng2018@ia.ac.cn).
+If you have any question about implementation details, feel free to ask me (1002434886@qq.com).
 
 ## Abstract
 Audio-visual speech separation (AVSS) refers to separating individual voice from an audio mixture of multiple simultaneous talkers by conditioning on visual features. For the
@@ -18,7 +18,7 @@ The details of networks architecture can be found at [*./code/visual_front*](./c
 <div align=center><img width="500" src="./image/Figure3.png" alt="Visual model of extracting visual-speech feature"/></div>
 
 ### Audio-visual speech separation networks
-The code will be release soon, but the networks can be easily built based on our paper.
+The networks can be easily built based on our paper.
 <div align=center><img width="500" src="./image/Figure4.png" alt="Audio-visual speech separation networks"/></div>
 
 ## Datasets
