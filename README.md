@@ -2,7 +2,7 @@
 
 ## Overview
 Demo samples of our paper *"Audio-Visual Speech Separation with Visual Features Enhanced by Adversarial Training"*. 
-if you have questions, feel free to ask me (zhangpeng2018@ia.ac.cn).
+If you have questions, feel free to ask me (zhangpeng2018@ia.ac.cn).
 ## Abstract
 Audio-visual speech separation (AVSS) refers to separating individual voice from an audio mixture of multiple simultaneous talkers by conditioning on visual features. For the
 AVSS task, visual features play an important role, based on which we manage to extract more effective visual features to improve the performance**. In this paper, we propose a novel AVSS model that uses speech-related visual features for isolating the target speaker. Specifically, the method of extracting speech-related visual features has two steps. Firstly, we extract the visual features that contain speech-related information by learning joint audio-visual representation. Secondly, we use the adversarial training method
