@@ -14,7 +14,6 @@ to enhance speech-related information in visual features further. We adopt the t
 
 ## Model
 ### Extract speech-related visual features
-The details of networks architecture can be found at [*./code/visual_front*](./code/visual_front). **Please note the code annotation**
 <div align=center><img width="500" src="./image/Figure3.png" alt="Visual model of extracting visual-speech feature"/></div>
 
 ### Audio-visual speech separation networks
