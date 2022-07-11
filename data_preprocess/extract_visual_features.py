@@ -4,6 +4,7 @@ This scripts have four functions:
    more than one) and record the name of correct videos;
 2. video --> images and record the FPS of video in .txt file;
 3. images --> face thumbnails, add variable control whether to save intermediate results (face thumbnails);
+   reference: https://github.com/biubug6/Pytorch_Retinaface
 4. face thumbnails --> visual features.
 @zhangpeng
 """
@@ -242,7 +243,7 @@ def extract_visual_features(face_thumbnails, visual_encoder, device):
 
 
 if __name__ == "__main__":
-    # configure Retinaface
+    # configure Retinaface reference: https://github.com/biubug6/Pytorch_Retinaface
     parser = argparse.ArgumentParser(description='Retinaface and Visual encoder')
     parser.add_argument('-m', '--trained_model', default='./weights/mobilenet0.25_Final.pth',
                     type=str, help='Trained state_dict file path to open')
